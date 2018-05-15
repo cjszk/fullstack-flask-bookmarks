@@ -1,0 +1,139 @@
+body {
+    background: url(http://media.moddb.com/images/mods/1/20/19393/Amnesia_2012-09-18_13-39-23-30.jpg);
+    background-size: flex;
+    color: white;
+    font-family: 'Satisfy';
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.submit-button {
+    font-size: 36px;
+}
+
+body button, body select, body input, body textarea {
+    font-family: 'Fredoka One';
+    border: 1px solid black;
+    background-color: #333333;
+    opacity: .8;
+    color: white;
+}
+
+.controls {
+    font-size: 24px;
+}
+
+#filter-by-rating-span {
+    font-family: 'Fredoka One';
+}
+
+.form-div {
+    font-family: 'Fredoka One';
+    background-color: #666666;
+    border: 1px solid black;
+    height: 100vh;
+    width: 18%;
+    float: left;
+    padding: 10px;
+    opacity: .8;
+}
+
+#form-rating {
+    font-size: 24px;
+}
+
+form input {
+    width: 97.5%;
+}
+
+.add-description {
+    width: 97.5%;
+    height: 300px;
+}
+
+.display-add-bookmark {
+    margin: 0 50px;
+}
+
+#filter-by-rating-span {
+    margin: 0 50px;
+}
+
+.main-box {
+    padding: 30px;
+    border: 1px solid black;
+    background-color: #666666;
+    opacity: .8;
+}
+
+
+li {
+    background-color: #555555;
+    list-style: none;
+    text-align: left;
+    border: 1px solid black;
+}
+
+.center {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.col-3 {
+    padding: 10px;
+}
+
+.col-6 {
+    padding: 10px;
+}
+
+.col-9 {
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+.show-details {
+    float: right;
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+#change-rating-span {
+    font-family: 'Fredoka One';
+    font-size: 16px;
+}
+
+.desc-edit {
+    width: 100%;
+    height: 200px;
+}
+
+.item-description {
+    font-size: 18px;
+    font-family: 'Fredoka One'
+}
+
+.details-button-div {
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    opacity: .8;
+}
+
+.item-description-button, .submit-changes {
+    font-size: 18px;
+}
