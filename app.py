@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 app.config.update(
     SECRET_KEY='topsecret',
-    SQLALCHEMY_DATABASE_URI='postgresql://chris:cjdrnch65@localhost/bookmarks',
+    SQLALCHEMY_DATABASE_URI='postgres://rxvnpszm:Jk-I8WQEoEczmxmBsIuehJzhVENQArtd@elmer.db.elephantsql.com:5432/rxvnpszm',
     SQLALCHEMY_TRACK_MODIFICATIONS=False
 )
 
@@ -65,7 +65,7 @@ def api_get():
     # resp = Response(js, status = 200, mimetype='application/json')
     resp = jsonify(data)
     resp.status_code = 200
-    resp.headers['Link'] = 'http//localhost:5000'
+    resp.headers['Link'] = 'https://web-bookmarker.herokuapp.com'
     return resp
 
 @app.route('/post', methods = ['POST'])

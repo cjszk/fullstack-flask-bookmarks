@@ -1,7 +1,7 @@
 //api.js
 //Handles all api requests to server.
 const api = (function() {
-    BASE_URL = 'http://localhost:5000';
+    BASE_URL = 'https://web-bookmarker.herokuapp.com';
     const getBookmarks = function(callback) {
         $.getJSON(BASE_URL + '/get', callback);
     }
