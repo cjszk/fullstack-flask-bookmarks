@@ -114,6 +114,6 @@ def api_delete(id):
     return 'Deleted: {}'.format(id)
 
 if __name__ == "__main__":
-    app.run()
+    # app.run()
     db.create_all()
     

@@ -7,3 +7,6 @@ gunicorn = "*"
 Flask = "*"
 Flask-Compress = "*"
 Flask-Cache = "*"
+
+[requires]
+python_full_version = "3.6.4"
